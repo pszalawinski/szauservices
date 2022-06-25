@@ -12,6 +12,8 @@
   <modules>
     <module>customer</module>
     <module>fraud</module>
+    <module>encryption</module>
+    <module>hashMapInterfaces</module>
   </modules>
 
   <name>szauservices</name>
