@@ -1,6 +1,4 @@
 
-g
-7fraud/src/main/java/com/szau/fraud/FraudController.java,7/1/713824278486627e019102b2e2869981476f85fa
 ‹
 [hashMapInterfaces/src/main/java/com/szau/hashMapInterfaces/HashMapIntefacesApplication.java,7/6/768d930471a659d2bb5c60548f90b87f150beb38
 z
@@ -11,12 +9,8 @@ I
 OhashMapInterfaces/src/main/java/com/szau/hashMapInterfaces/LocatorElements.java,6/8/68b1831ef20c139d8eab1ae5bed0c94614adfd65
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-i
-9fraud/src/main/java/com/szau/fraud/FraudCheckHistory.java,d/b/db659b45c897652eab39a18d481b5d7e067ac2c0
 q
 Aencryption/src/main/java/JweEncryptDecryptAppBlogApplication.java,9/9/992675bbbe00821710c0c6f170c6dea3756677d3
-s
-Cfraud/src/main/java/com/szau/fraud/FraudCheckHistoryRepository.java,1/3/130221a3744bb0c6318f32822e8ba6dd4af1926c
 w
 GhashMapInterfaces/src/main/java/com/szau/hashMapInterfaces/Locator.java,8/6/86003da70e4f31e50c97c7acdd8979c5f2ceaf30
 ~
