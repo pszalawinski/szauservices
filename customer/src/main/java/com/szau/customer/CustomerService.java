@@ -1,7 +1,8 @@
 package com.szau.customer;
 
 
-import java.net.URI;
+import com.szau.clients.FraudCheckResponse;
+import com.szau.clients.FraudClient;
 import java.util.List;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -13,6 +14,7 @@ public class CustomerService {
 
   private final CustomerRepository customerRepository;
   private final RestTemplate restTemplate;
+  private final FraudClient fraudClient;
 
   public void registerCustomer(CustomerRegistrationRequest req) {
     Customer customer = Customer.builder()
@@ -23,13 +25,9 @@ public class CustomerService {
 
     customerRepository.saveAndFlush(customer);
 
-    //todo: check ifFraudster
-    FraudCheckResponse fraudCheckResponse = restTemplate.getForObject(
-        "http://FRAUD/api/v1/fraud/{customerId}",
-        FraudCheckResponse.class, customer.getId());
+    FraudCheckResponse fraudCheckResponse = fraudClient.isFraudster(customer.getId());
 
-   // assert fraudCheckResponse != null;
-    if (fraudCheckResponse.getIsFraudster()) {
+    if (fraudCheckResponse.isFraudster()) {
       throw new IllegalStateException("fraudster");
     }
 
