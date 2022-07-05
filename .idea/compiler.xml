@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hashMapInterfaces" />
         <module name="encryption" />
+        <module name="eureka-server" />
         <module name="fraud" />
         <module name="customer" />
       </profile>
