@@ -33,10 +33,6 @@ s
 Cfraud/src/main/java/com/szau/fraud/FraudCheckHistoryRepository.java,1/3/130221a3744bb0c6318f32822e8ba6dd4af1926c
 i
 9fraud/src/main/java/com/szau/fraud/FraudCheckHistory.java,d/b/db659b45c897652eab39a18d481b5d7e067ac2c0
-h
-8fraud/src/main/java/com/szau/fraud/FraudApplication.java,2/f/2f2ef0d3e9a3846367dc34eda8124bf40a4c1eb6
-g
-7fraud/src/main/java/com/szau/fraud/FraudController.java,7/1/713824278486627e019102b2e2869981476f85fa
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
