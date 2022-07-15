@@ -14,23 +14,11 @@ services:
       - postgres
     restart: unless-stopped
 
-### in normal approach there should be separate container for the fraud service but for sake of saving local space now I will do everything in the same db
-
-#  postgres-fraud:
-#    container_name: postgres
-#    image: postgres
-#    environment:
-#      POSTGRES_USER: szau
-#      POSTGRES_PASSWORD: password
-#      PGDATA: /data/postgres
-#    volumes:
-#      - postgres:/data/postgres
-#    ports:
-#      - "5432:5432"
-#    networks:
-#      - postgres
-#    restart: unless-stopped
-
+  zipkin:
+    image: openzipkin/zipkin
+    container_name: zipkin
+    ports:
+      - "9411:9411"
   pgadmin:
     container_name: pgadmin
     image: dpage/pgadmin4

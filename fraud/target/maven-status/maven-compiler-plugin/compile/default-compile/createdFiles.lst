@@ -1,0 +1,6 @@
+com/szau/fraud/FraudController.class
+com/szau/fraud/FraudCheckHistory.class
+com/szau/fraud/FraudCheckHistory$FraudCheckHistoryBuilder.class
+com/szau/fraud/FraudCheckService.class
+com/szau/fraud/FraudCheckHistoryRepository.class
+com/szau/fraud/FraudApplication.class

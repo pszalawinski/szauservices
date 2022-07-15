@@ -16,6 +16,10 @@
         <module name="customer" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="encryption" target="17" />
+      <module name="hashMapInterfaces" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

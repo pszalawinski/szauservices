@@ -1,0 +1,4 @@
+com/szau/clients/NotificationRequest.class
+com/szau/clients/FraudClient.class
+com/szau/clients/FraudCheckResponse.class
+com/szau/clients/NotificationClient.class
