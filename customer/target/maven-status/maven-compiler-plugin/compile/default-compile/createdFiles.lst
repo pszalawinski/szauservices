@@ -1,0 +1,8 @@
+com/szau/customer/Customer$CustomerBuilder.class
+com/szau/customer/CustomerRepository.class
+com/szau/customer/CustomerService.class
+com/szau/customer/Customer.class
+com/szau/customer/CustomerRegistrationRequest.class
+com/szau/customer/CustomerApplication.class
+com/szau/customer/CustomerConfig.class
+com/szau/customer/CustomerController.class

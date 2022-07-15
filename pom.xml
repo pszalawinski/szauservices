@@ -13,8 +13,8 @@
   <modules>
     <module>customer</module>
     <module>fraud</module>
-    <module>encryption</module>
-    <module>hashMapInterfaces</module>
+<!--    <module>encryption</module>-->
+<!--    <module>hashMapInterfaces</module>-->
     <module>eureka-server</module>
     <module>clients</module>
     <module>notification</module>

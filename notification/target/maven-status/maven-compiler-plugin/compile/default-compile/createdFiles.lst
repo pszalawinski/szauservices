@@ -1,0 +1,6 @@
+com/szau/notification/NotificationController.class
+com/szau/notification/NotificationApplication.class
+com/szau/notification/Notification.class
+com/szau/notification/NotificationRepository.class
+com/szau/notification/NotificationService.class
+com/szau/notification/Notification$NotificationBuilder.class
