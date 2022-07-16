@@ -1,6 +1,8 @@
 package com.szau.customer;
 
 
+import com.szau.amqp.RabbitMQConstants;
+import com.szau.amqp.RabbitMQMessageProducer;
 import com.szau.clients.FraudCheckResponse;
 import com.szau.clients.FraudClient;
 import com.szau.clients.NotificationClient;
@@ -15,7 +17,7 @@ public class CustomerService {
 
   private final CustomerRepository customerRepository;
   private final FraudClient fraudClient;
-  private final NotificationClient notificationClient;
+  private final RabbitMQMessageProducer rabbitMQMessageProducer;
 
   public void registerCustomer(CustomerRegistrationRequest req) {
     Customer customer = Customer.builder()
@@ -32,13 +34,15 @@ public class CustomerService {
       throw new IllegalStateException("fraudster");
     }
 
-    // todo: make it async. i.e add to queue
-
-    notificationClient.sendNotification(new NotificationRequest(
+    NotificationRequest notificationRequest = new NotificationRequest(
         customer.getId(),
         customer.getEmail(),
         String.format("Hello %s !!!",
-        customer.getFirstName())));
+            customer.getFirstName()));
+
+    rabbitMQMessageProducer.publish(
+        notificationRequest, RabbitMQConstants.INTERNAL_EXCHANGE,
+        RabbitMQConstants.NOTIFICATION_ROUTING_KEY);
   }
 
   public List<Customer> getAllCustomers() {

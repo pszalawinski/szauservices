@@ -15,8 +15,6 @@ w
 GhashMapInterfaces/src/main/java/com/szau/hashMapInterfaces/Locator.java,8/6/86003da70e4f31e50c97c7acdd8979c5f2ceaf30
 ~
 NhashMapInterfaces/src/main/java/com/szau/hashMapInterfaces/LocatorElement.java,e/3/e3a99b53b0be0b94e356c3ae6e7f9efeea0bbea4
-q
-Acustomer/src/main/java/com/szau/customer/CustomerApplication.java,4/a/4aa25cddce309708ae0fc7b3c7afe62cadc7bbe0
 l
 <customer/src/main/java/com/szau/customer/CustomerConfig.java,9/a/9ae9b1a5e1c2efb2957e15d582eb1de957bd3754
 p
@@ -25,8 +23,6 @@ y
 Icustomer/src/main/java/com/szau/customer/CustomerRegistrationRequest.java,b/2/b29fbadf4c01eb6a0df69bc70a349a9c7f0ac438
 p
 @customer/src/main/java/com/szau/customer/CustomerRepository.java,3/2/325a8997b10c4b9e7c2631e14b6a2e00f927a848
-m
-=customer/src/main/java/com/szau/customer/CustomerService.java,c/3/c3e5622313a80e13b929d1160ae17f04f7675a09
 i
 9fraud/src/main/java/com/szau/fraud/FraudCheckService.java,a/8/a8d073729bf667852a8f1999d7fa6e4e48347a77
 s
@@ -36,16 +32,12 @@ i
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-}
-Mnotification/src/main/java/com/szau/notification/NotificationApplication.java,c/e/ce0acba33de89df5753520d7a3bf206713a8abf7
 r
 Bnotification/src/main/java/com/szau/notification/Notification.java,d/8/d8ef1512b6896c8ea35d692df59e52555c59c8d4
 |
 Lnotification/src/main/java/com/szau/notification/NotificationRepository.java,0/c/0c6bb2e6ce46e34faab24292c540d0c14ec0626a
 y
 Inotification/src/main/java/com/szau/notification/NotificationService.java,1/f/1fbcc0c3561b8db06c47bb4c7ded03774588fee6
-|
-Lnotification/src/main/java/com/szau/notification/NotificationController.java,5/e/5e9269cb9639442dc980f2babadc9ec6fa881ae4
 g
 7clients/src/main/java/com/szau/clients/FraudClient.java,b/1/b19751b0bb4ab99ba1008ce90510bd4c3534c8fe
 n
@@ -58,5 +50,3 @@ o
 ?clients/src/main/java/com/szau/clients/NotificationRequest.java,7/b/7b368984907c5c2d55e7d8b25a606d46076718cd
 =
 fraud/pom.xml,d/0/d024669e89b7b66ac8ba07340a73edc6aa228259
-D
-notification/pom.xml,0/d/0d8056be62f90a93d2bc0b4ea5db519b06028b1e
