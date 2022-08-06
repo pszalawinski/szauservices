@@ -19,10 +19,6 @@ y
 Icustomer/src/main/java/com/szau/customer/CustomerRegistrationRequest.java,b/2/b29fbadf4c01eb6a0df69bc70a349a9c7f0ac438
 p
 @customer/src/main/java/com/szau/customer/CustomerRepository.java,3/2/325a8997b10c4b9e7c2631e14b6a2e00f927a848
-s
-Cfraud/src/main/java/com/szau/fraud/FraudCheckHistoryRepository.java,1/3/130221a3744bb0c6318f32822e8ba6dd4af1926c
-i
-9fraud/src/main/java/com/szau/fraud/FraudCheckHistory.java,d/b/db659b45c897652eab39a18d481b5d7e067ac2c0
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
@@ -32,8 +28,6 @@ Bnotification/src/main/java/com/szau/notification/Notification.java,d/8/d8ef151
 Lnotification/src/main/java/com/szau/notification/NotificationRepository.java,0/c/0c6bb2e6ce46e34faab24292c540d0c14ec0626a
 y
 Inotification/src/main/java/com/szau/notification/NotificationService.java,1/f/1fbcc0c3561b8db06c47bb4c7ded03774588fee6
-n
->clients/src/main/java/com/szau/clients/NotificationClient.java,6/6/660a07100d327aab26183c3a16f98abf369bb30d
 o
 ?clients/src/main/java/com/szau/clients/NotificationRequest.java,7/b/7b368984907c5c2d55e7d8b25a606d46076718cd
 n
@@ -50,22 +44,10 @@ x
 Hnotification/src/main/java/com/szau/notification/NotificationConfig.java,0/d/0d72980387823ccde0674e4cf668802382280dd6
 p
 @customer/src/main/java/com/szau/customer/CustomerController.java,a/d/ad097ef09ee3c5752e5d02df0b358ec9158fe100
-q
-Acustomer/src/main/java/com/szau/customer/CustomerApplication.java,4/a/4aa25cddce309708ae0fc7b3c7afe62cadc7bbe0
 m
 =customer/src/main/java/com/szau/customer/CustomerService.java,c/3/c3e5622313a80e13b929d1160ae17f04f7675a09
-i
-9fraud/src/main/java/com/szau/fraud/FraudCheckService.java,a/8/a8d073729bf667852a8f1999d7fa6e4e48347a77
-h
-8fraud/src/main/java/com/szau/fraud/FraudApplication.java,2/f/2f2ef0d3e9a3846367dc34eda8124bf40a4c1eb6
-g
-7fraud/src/main/java/com/szau/fraud/FraudController.java,7/1/713824278486627e019102b2e2869981476f85fa
-g
-7clients/src/main/java/com/szau/clients/FraudClient.java,b/1/b19751b0bb4ab99ba1008ce90510bd4c3534c8fe
 h
 8apigw/src/main/java/com/szau/apigw/ApiGWApplication.java,7/d/7dc30da612b4f11dce013cd91a240145f69c8210
-}
-Mnotification/src/main/java/com/szau/notification/NotificationApplication.java,c/e/ce0acba33de89df5753520d7a3bf206713a8abf7
 ƒ
 Snotification/src/main/java/com/szau/notification/rabbitmq/NotificationConsumer.java,5/d/5d2a08a50ba2570fc24675ab9610f4899733a644
 ~
